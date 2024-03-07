@@ -119,7 +119,7 @@ impl EventHandler for Faucet {
                                         }
                                     },
                                     Network::Ethereum => {
-                                        format!("https://goerli.etherscan.io/tx/{}", txid)
+                                        format!("https://holesky.etherscan.io/tx/{}", txid)
                                     }
                                     Network::Arbitrum => {
                                         format!(
