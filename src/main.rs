@@ -107,7 +107,7 @@ impl EventHandler for Faucet {
                                 let explorer = match coin.network {
                                     Network::Lightning => match coin_name.as_str() {
                                         "BTC" => format!(
-                                            "https://blockstream.info/testnet/tx/{}",
+                                            "https://mempool.space/signet/tx/{}",
                                             txid
                                         ),
                                         "LTC" => format!(
