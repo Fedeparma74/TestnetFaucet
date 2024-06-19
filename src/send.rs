@@ -36,6 +36,7 @@ impl Faucet {
             addr: address.to_string(),
             amount: btc_to_sat(amount, coin.decimals) as i64,
             sat_per_vbyte: 5,
+            min_confs: 5,
             ..Default::default()
         };
 
